@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Allison&family=ZCOOL+KuaiLe&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Allison', cursive;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+        .menu{
+    background-color: rgba(1,0,0,0.3);
+    font-size: 25px;
+    color: white;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+    text-align: center;
+}
+.menu a:hover{
+    
+    color:lawngreen;
+}
+.firstImg{
+    background-image: url(https://images.nvidia.com/aem-dam/Solutions/geforce/news/minecraft-with-rtx/minecraft-with-rtx-beta-of-temples-and-totems-003-rtx-on.png);
+    height:500px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.text1{
+    max-width:700px;
+}
+.column{
+    border:2px solid black;
+    height:400px;
+    width:33.3%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: transparent;
+}
+.i1{
+    background-image:url(https://www.guestpost.easybranches.com/images/450x253/11139763.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i2{
+    background-image:url(https://img.gurugamer.com/resize/740x-/2021/05/07/minecraft-curse-craft-4-c1a4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i3{
+    background-image:url(https://i.pinimg.com/originals/5e/2b/82/5e2b82f681f44e2cc7d18fa53fb4f357.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i4{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqv7KuIGf0xFDd8JC1BMvB6cu2Z49At3tCg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i5{
+    background-image:url(https://game.ava360.com/uploads/thumbs/95e7cc47c-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i6{
+    background-image:url(https://64.media.tumblr.com/258b4cde8b5f2262857a34af47e813ca/b191694a2a82bce6-b0/s2048x3072/583b975f278b37de5087ceb42a8a605c6ce9a879.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i7{
+    background-image:url(https://lh3.googleusercontent.com/proxy/4XncJ7FYCGAXgp6bQXV_sEQ2-O9xT4Wh49cxw98o8y8Q4E2yRVLQKdqEZqugrN1cbWKJRITEmqQMXc5-ni4v2H0dJPaxnZkWsiRGMrjZIPZaJMg4Wwc4hdRotaosB7Ml0Tc6m5mumHVPTUJyRSg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i8{
+    background-image:url(https://www.bizez.ca/wp-content/uploads/1611654395_maxresdefault-277x156.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i9{
+    background-image:url(https://i.redd.it/1a5sckdttsk71.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column:hover{
+background-image: none;
+background-color: #1D8200;
+color: black;
+}
+@media all and (max-width:991px){
+    .menu{
+        display: block;
+        overflow: hidden;
+    }
+    .menu a{
+        display: block;
+        width: 100%;
+    }
+    .column{
+        width:50%;
+    }
+}
+@media all and (max-width:600px){
+   
+    .column{
+        width:100%;
+    }
+    .text1{
+        max-width:400px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header class="menu">
+        <a href="MCC.html">Home</a>
+        <a href="About us.html">About us</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+    </header>
+    <div class="firstImg">
+        <div class="text1">
+            <h1>Minecraft</h1>
+            <p>Minecraft is a sandbox video game developed by Markus Persson in the Java programming language.
+
+                Minecraft has different slogans for each individual payer that they may see or find once they log in and are ready to get to work! The craft of the game, Minecraft, is simple but will keep every player in the game world on their toes.</p>
+        </div>
+    </div>
+    <div class="sec2">
+        <div class="row">
+            <div class="column i1">Creeper</div>
+            <div class="column i2">Chicken</div>
+            <div class="column i3">Enderman</div>
+            <div class="column i4">Obsidian staircase</div>
+            <div class="column i5">Cursed Thanos</div>
+            <div class="column i6">Villager</div>
+            <div class="column i7">TNT</div>
+            <div class="column i8">Cow with chest</div>
+            <div class="column i9">zombie ghast</div>
+        </div>
+    </div>
+    
+</body>
+</html>

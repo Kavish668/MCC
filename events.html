@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Allison&family=ZCOOL+KuaiLe&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Allison', cursive;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.menu{
+    background-color: rgba(1,0,0,0.3);
+    font-size: 25px;
+    color: white;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+}
+.img1{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1581093717955-KT2F5EMIYKEW1WNZMS9F/MCC+-+battlebox.png?format=1500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.text1{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img2{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1600180738299-U5XKYBYSO1JVSVXYZDQE/MCC-skybattle.jpg?format=1500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text2{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}    
+.img3{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1597417298158-70HZ62EVE0BBYSW4BLDW/MCC+-+acerace.png?format=1500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text3{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+} 
+.img4{
+    background-image: url(https://i.redd.it/mve47nv51t071.jpg);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text4{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+} 
+.img5{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1622120460407-K1TOCPUL48IC9002TS4Q/mcchampionship-minecrafteventbuildmart.png?format=2500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text5{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img6{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1537349138502-A14C34OPXF36WK2HAP9U/noxcrew-minecraft-GridRunners.png?format=1000w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text6{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img7{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1600185584830-1L1HODKRBFDPG0IL3T85/MCC-holeinthewall.jpg?format=2500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text7{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img8{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1621950968597-XP11DUV9QAPQT8NWIT74/mcchampionship-minecrafteventparkourtag.png?format=2500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text8{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img9{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1573053140170-T6OJT885Z3REUMAOUFRO/MCC+-+tgttos.png?format=2500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text9{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img10{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1627048214831-E1CF7ZCZAIKQ3TH1M9AY/SOT_HUB.png?format=2500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text10{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img11{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1573049247112-IVBWQVDTGWLX1XDFMA46/MCC+-+survivalgames.png?format=2500w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text11{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+.img12{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5971ce3b15d5dbd23f753394/1627048486988-VKTVSIT6SUFY2FSWBBX4/mcchampionship-minecrafteventDodgebolt.png?format=750w);
+    height:600px;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}  
+.text12{
+    padding: 30px;
+    background-color: #265670;
+    color: white;
+    font-size: larger;
+}
+a:hover{
+    color: purple;
+    background-color: white;
+} 
+    </style>
+</head>
+<body>
+    <header class="menu">
+        <a href="MCC.html">Home</a>
+        <a href="About us.html">About us</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+    </header>
+    <div class="img4">
+        <span>The Decision Dome</span>
+    </div>
+    <section>
+        <div class="text4">
+           <center><h1>The Decision Dome</h1></center>
+            <br>
+            <p>The Decision Dome is a phase in the event where players are able to vote for the next game. Coin multipliers increase throughout the event, meaning that the later a game is played, the more it’s worth! 
+
+                Vote for games you know you’re the best at later, or that you know your opponents can’t win! There may also be some fun equipment to help you...
+                
+                In each event, eight games are played, with teams trying to collect as many coins as they can. Keep reading to find out more about each of the games and how they’re scored.</p>
+        </div>
+    </section>
+    <div class="img1">
+<span>Battle Box</span>
+    </div>
+    <section>
+        <div class="text1">
+         <center> <h1>Battle Box</h1> </center>
+            <br>
+            <p>An epic PvP-centric game that occurs over 9 rounds. Each team cycles round and plays against every other team in a 4v4 match up! Teams have 1 minute, and only 1 life to capture the centre objective before the other team.
+
+                Coins are awarded to each member on the team that captures the objective. You can also earn coins for personal eliminations. Zero coins are rewarded if the match results in a draw.</p>
+        </div>
+    </section>
+    <div class="img2">
+        <span>Sky Battle</span>
+    </div>
+    <section>
+        <div class="text2">
+           <center><h1>Sky Battle</h1></center>
+            <br>
+            <p>Similar to Skyblockle and the classic Minecraft mini-game Skywars, Sky Battle is a fast-paced game designed to keep teams moving and trying new strategies!
+
+                Teams begin with access to resources and infinite blocks, which can be used to build defences, and move between islands. Build up your resources and head towards the centre of the map; the last player or team standing wins!
+                
+                Sky Battle is played out in three rounds of approximately five minutes. This high-paced game will keep you moving; the border is constantly shrinking!
+            </p>
+        </div>
+    </section>
+    <div class="img3">
+        <span>Ace Race</span>
+    </div>
+    <section>
+        <div class="text3">
+          <center>  <h1>Ace Race</h1></center>
+            <br>
+            <p>Ace Race is a three lap race around a big track full of shortcuts and pitfalls. Sprint, jump, and fly as fast as you can, and avoid obstacles to get the fastest time possible! Boost launchers line the track to send you gliding across the course, while vast pools allow you to riptide your way to victory!
+
+                The better placement you end with, the more coins you’ll earn. No coins are rewarded if you don’t complete the race.
+            </p>
+        </div>
+    </section>
+    <div class="img5">
+        <span>Big Sales At Build Mart</span>
+    </div>
+    <section>
+        <div class="text5">
+           <center> <h1>Big Sales At Build Mart</h1></center>
+            <br>
+            <p>A speed-building game that really tests communication and resource management! The aim is to build as many monuments as you can in the time limit by heading out into Build Mart, collecting the resources you need and bringing it back to your team's private build zone.
+
+                Completing a build earns coins for each player on the team, but that reward will lessen every time a team completes it. Extra Coins are rewarded at the end of the game depending on how much you have completed of your remaining builds.</p>
+        </div>
+    </section>
+    <div class="img6">
+        <span>Grid Runners</span>
+    </div>
+    <section>
+        <div class="text6">
+           <center> <h1>Grid Runners</h1></center>
+            <br>
+            <p>This one is all about cooperation! Teams are catapulted into ten identical, parallel courses that contain challenge rooms that are perfectly designed to test players' communication, Minecraft skills, and speed.
+
+                Once a room has been completed, a door will open up to reveal the next challenge, with the course ending in a sprint to the finish line! The faster our teams complete each room (and the course), the more they'll be rewarded.</p>
+        </div>
+    </section>
+    <div class="img7">
+        <span>Hole in the Wall</span>
+    </div>
+    <section>
+        <div class="text7">
+          <center> <h1>Hole in the Wall</h1></center>
+            <br>
+            <p>The aim of the game is to stay alive for as long as you can while large walls of slime converge on you from all directions! Jump and thread your way through the walls without being pushed off the platform.
+
+                Over time, the speed of the walls will increase, as the platform beneath you decreases in size! Coins are awarded every time a player falls and you’re still on the platform, with a big bonus if you survive an entire round.</p>
+        </div>
+    </section>
+    <div class="img8">
+        <span>Parjour Tag</span>
+    </div>
+    <section>
+        <div class="text8">
+           <center> <h1>Parkour Tag</h1></center>
+            <br>
+            <p>Parkour Tag is a real test of skill! Not only do your focus and reaction times matter, you also need speed and spatial awareness to keep from getting tagged by your opponent!
+
+                Teams go head to head, with one player on each team trying to catch their opponents as the Hunter. These maps are tricky! You’ll need to keep moving In order to put space between you and the Hunter… Let them get too close and you’ll be out!
+                
+                Hunters get points for each player they tag, and the hunted get points for staying alive. Simple!</p>
+        </div>
+    </section>
+    <div class="img9">
+        <span>TGTTOSAWAF</span>
+    </div>
+    <section>
+        <div class="text9">
+           <center><h1>TGTTOSAWAF</h1></center>
+            <br>
+            <p>The aim of To Get to the Other Side (and Whack a Fan) is obvious… The game plays out in six rounds across six different maps. All players start on one end of the map and are given various tools to assist them in getting to the other side. Once they’ve made it across, they must punch a fan (one of you!) to complete their goal!
+
+                Since sabotage is a part of this game, expect plenty of chaos! Where you place will determine how many coins you earn, with first place earning the most coins.</p>
+        </div>
+    </section>
+    <div class="img10">
+        <span>Sands of Time</span>
+    </div>
+    <section>
+        <div class="text10">
+           <center> <h1>Sands of Time</h1> </center>
+            <br>
+            <p>Sands of time is the most cryptic game in MCC. Teams enter their own dungeons and compete against the clock to collect as much hidden gold as they can. Keeping the timer topped up with sand is the only way for you to stay in the game. If you die, your team must sacrifice resources to revive you. Bank your gold by offering it to the sphinx for a fee, or keep every coin by leaving the dungeon. However, if you leave, you can’t return.
+
+                Feeling ambitious? You’ll be rewarded! Coins are more valuable the deeper you delve into the dungeon, but be careful! If you don’t get out before the timer runs out, your bravery will have been for nothing.</p>
+        </div>
+    </section>
+    <div class="img11">
+        <span>Survival Games</span>
+    </div>
+    <section>
+        <div class="text11">
+           <center><h1>Survival Games</h1></center>
+            <br>
+            <p>It’s the classic! Last team standing wins! All players are let free to roam the map, trying to become more powerful through finding equipment hidden in buildings, all while the map borders converge into the centre, forcing you to fight for survival.
+
+                In this version, players have infinite levels, allowing them to enchant their equipment to further levels of power. Look out for occasional chests containing powerful and unique equipment! Coins are awarded every time a player dies and you’re still alive, for eliminating an opponent, and for surviving the entire game.</p>
+        </div>
+    </section>
+    <div class="img12">
+        <span>Dodge-Bolt</span>
+    </div>
+    <section>
+        <div class="text12">
+          <center><h1>Dodge-Bolt</h1></center> 
+            <br>
+            <p>Dodgebolt is the final duel, and is not available on the Decision Dome. It’s an elimination game where the aim is to remain as the last team standing. Dodgebolt is played as a best of five, and the first team to reach three wins will become the MCC event winners!
+
+                Both teams start across from each other on opposite sides of an arena (they can’t cross over into each other’s sides). At the start of the round, 2 arrows are dropped into the centre, where players will race to pick them up. From here on out, the players must shoot the arrows back and forth to try to eliminate each other. If you get hit once, you’re out! It’s intense!</p>
+        </div>
+    </section>
+</body>
+</html>
